@@ -16,4 +16,3 @@ class Calculator:
             raise ValueError("Denominator cannot be zero")
         return a / b
 
-        
