@@ -1,4 +1,9 @@
-from calculator import Calculator
+
+from src.calculator import Calculator
+
+calc = Calculator()
+print("Running tests...")
+print(calc)
 
 def test_add():
     calc = Calculator()
