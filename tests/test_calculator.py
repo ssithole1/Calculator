@@ -1,9 +1,5 @@
 from calculator.operations import Calculator
 
-calc = Calculator()
-print("Running tests...")
-print(calc)
-
 def test_add():
     calc = Calculator()
     assert calc.add(2, 3) == 5
