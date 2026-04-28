@@ -1,4 +1,5 @@
 class Calculator:
+    
     # Basic arithmetic operations
     def add(self, a, b):
         return a + b
