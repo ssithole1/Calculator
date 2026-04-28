@@ -1,4 +1,5 @@
 class Calculator:
+
     
     # Basic arithmetic operations
     def add(self, a, b):
@@ -16,6 +17,7 @@ class Calculator:
         return a / b
 
 calc = Calculator()
+
 print(calc.add(2, 3))        # Output: 5
 print(calc.subtract(10, 5))  # Output: 5
 print(calc.multiply(2, 3))   # Output: 6
