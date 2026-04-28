@@ -15,3 +15,4 @@ def test_multiply():
 def test_divide():
     calc = Calculator()
     assert calc.divide(10, 2) == 5
+
